@@ -44,12 +44,10 @@ export const Home = () => {
 
               <CustomButton
                 type="filled"
-                tittle="Customize It"
+                title="Customize It"
                 handleClick={() => (state.intro = false)}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
-
-              <customButton></customButton>
             </motion.div>
           </motion.div>
         </motion.section>
